@@ -1,0 +1,12 @@
+@use "shared.module.scss" as shared;
+
+.pageTitle {
+    font-size: 36px;
+    color: shared.$accentColor;
+
+}
+
+.headline {
+    font-size: 24px;
+    color: shared.$accentColor2;
+}

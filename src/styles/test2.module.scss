@@ -1,0 +1,8 @@
+// OK @use "shared.module.scss" as shared;
+// OK @use "../../src/styles/shared.module.scss" as shared;
+@use "~/styles/shared.module.scss" as shared;
+
+.headline {
+    font-size: 24px;
+    color: shared.$accentColor3;
+}
